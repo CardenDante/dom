@@ -1,0 +1,25 @@
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 6px;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+/* Make delete button clear */
+.delete-btn {
+  margin-left: 15px;
+  padding: 5px 10px;
+  border: none;
+  background: #dc3545; /* Bootstrap red */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #b02a37; /* darker red on hover */
+}
+
