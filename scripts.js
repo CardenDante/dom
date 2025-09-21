@@ -32,7 +32,7 @@ function createTaskItem(taskText) {
   // Create the delete button
   const deleteButton = createDeleteButton(listItem);
   
-  // Put the text and button inside the list item
+  // Put the text and button inside the list item       
   listItem.appendChild(taskSpan);
   listItem.appendChild(deleteButton);
   
